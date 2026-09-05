@@ -137,6 +137,8 @@ We can build agents using the following approaches:
 
 ### AgentCore Harness
 
+![AgentCoreHarness](AgentCoreHarness.png "AgentCore Harness")
+
 As a developer, navigating the vast array of tools and services available can be a daunting task when building an infrastructure tailored to the requirements of Agentic AI. AgentCore Harness emerges as a robust solution for this purpose.
 
 Harness operates at an abstract level of configuration, providing a streamlined approach to creating agents compared to conventional methods. 
