@@ -3,7 +3,7 @@
 - [Introduction](#introduction)
 - [What is Amazon Bedrock AgentCore?](#what-is-amazon-bedrock-agentcore)
 - [Prerequisites and Configuration](#prerequisites-and-configuration)
-- [AgentCore Primitives and Configuration](#agentcore-primitives-and-configuration)
+- [AgentCore Primitives](#agentcore-primitives)
 - [Selecting An Agent Framework: Strands Agents and Spring AI](#selecting-an-agent-framework-strands-agents-and-spring-ai)
 - [Adding AgentCore Primitives to the Agent](#adding-agentcore-primitives-to-the-agent)
 - [Deploying the Agent to AgentCore Runtime](#deploying-the-agent-to-agentcore-runtime)
@@ -133,7 +133,7 @@ We can build agents using the following approaches:
 
 ---
 
-## AgentCore Primitives and Configuration
+## AgentCore Primitives
 
 ### AgentCore Harness
 
