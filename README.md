@@ -116,7 +116,7 @@ This approach enables organizations to build AI agents using their preferred fra
 
 ---
 
-￼
+![Amazon Bedrock AgentCore](AmazonBedrockAgentCore.png "Amazon Bedrock AgentCore Architecture")
 
 ## Prerequisites and Configuration
 
