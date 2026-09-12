@@ -139,6 +139,8 @@ We can build agents using the following approaches:
 
 ![AgentCoreHarness](AgentCoreHarness.png "AgentCore Harness")
 
+The term “label harness” was coined by HashiCorp Co-founder Mitchell HashiMoto in a February 2026 blog post discussing his AI workflow as part of the development of Harness Engineering.
+
 As a developer, navigating the vast array of tools and services available can be a daunting task when building an infrastructure tailored to the requirements of Agentic AI. AgentCore Harness emerges as a robust solution for this purpose.
 
 Harness operates at an abstract level of configuration, providing a streamlined approach to creating agents compared to conventional methods. 
@@ -158,3 +160,8 @@ AgentCore Harness interfaces with two primary APIs and encapsulates the underlyi
 * `InvokeHarness`: This API enables the execution of the defined agent.
 
 You define the model, system prompt, tools, skills, memory, and limitations. AgentCore then executes the loop, utilizing the Strands Agents framework. Modifying a tool or altering the model constitutes an edit to the configuration, not a redeployment. Internally, the agent operates within a confined sandbox on AgentCore Runtime, enabling it to access files and execute code without requiring manual compilation. Each session utilizes its own Lambda MicroVM, which maintains an isolated state or filesystem and provides access to the code within the sandbox. The complete transaction is streamed and automatically pushed to Amazon CloudWatch. The majority of the agent’s logs, metrics, and traces are now accessible under the **Generative AI Observability** section.
+
+In essence, the agentcore harness is the software framework surrounding a language model, encompassing tools, memory, state, execution, guardrails, and observability.
+
+![AgentCoreHarness](AgentCoreHarness_1.png "AgentCore Harness")
+
