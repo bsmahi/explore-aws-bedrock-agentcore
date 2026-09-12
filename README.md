@@ -139,7 +139,7 @@ We can build agents using the following approaches:
 
 ![AgentCoreHarness](AgentCoreHarness.png "AgentCore Harness")
 
-The term “label harness” was coined by HashiCorp Co-founder Mitchell HashiMoto in a February 2026 blog post discussing his AI workflow as part of the development of Harness Engineering.
+The term “label harness” was coined by HashiCorp Co-founder Mitchell HashiMoto in a February 2026 ![blog post](https://mitchellh.com/writing/my-ai-adoption-journey) discussing his AI workflow as part of the development of Harness Engineering.
 
 As a developer, navigating the vast array of tools and services available can be a daunting task when building an infrastructure tailored to the requirements of Agentic AI. AgentCore Harness emerges as a robust solution for this purpose.
 
