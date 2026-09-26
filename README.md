@@ -135,7 +135,7 @@ We can build agents using the following approaches:
 
 ## AgentCore Primitives
 
-### AgentCore Harness
+### 1. AgentCore Harness
 
 ![AgentCoreHarness](AgentCoreHarness.png "AgentCore Harness")
 
@@ -165,3 +165,59 @@ In essence, the agentcore harness is the software framework surrounding a langua
 
 ![AgentCoreHarness](AgentCoreHarness_1.png "AgentCore Harness")
 
+### 2. AgentCore Runtime
+
+- The execution environment where your AI agents run
+- Handles scaling, session management, and isolation automatically
+- Lets you deploy agents without managing infrastructure
+
+### 3. AgentCore Memory
+
+- Helps agents remember context across interactions
+- **Supports:**
+   - **Short-term memory (conversation context):** It stores recent messages using a sliding window approach.
+   - **Long-term memory (persistent knowledge):** It persists knowledge across sessions using multiple strategies like `Semantic`, `User Preference`, `Summary`, and Episodic memory` strategies.
+- Enables more personalized and intelligent responses
+
+### 4. AgentCore Gateway
+
+- Connects agents to APIs, tools, and external systems
+- Converts APIs/Lambda functions into agent-compatible tools (MCP)
+- Simplifies tool integration with minimal code
+
+### 5. AgentCore Identity
+
+- Manages authentication and access control for agents
+- Integrates with existing identity providers (e.g., `Cognito`, `Okta`, `OAuth2`)
+- Ensures secure interactions with systems and data
+
+### 6. AgentCore Policy
+
+- Defines rules and boundaries for agent behavior
+- Controls what actions an agent can perform
+- Ensures compliance and governance without slowing execution
+
+### 7. Build-inTool: Code Interpreter
+
+- Provides a secure sandbox for executing code
+- Supports multiple languages (Python, Javascript, etc.)
+- Helps agents perform complex computations and tasks
+
+### 8. Build-inTool: Browser
+
+- Allows agents to interact with websites
+- Can navigate pages, fill forms, and extract data
+- Runs in a secure, managed environment
+
+### 9. Gen AI Observability
+
+- Monitors and tracks agent performance in production
+- Provides tracing, debugging, and visualization of workflows
+- Helps identify failures and optimize performance
+- Separate feature is available in CloudWatch as a sidecar as a Gen AI Observability
+
+### 10. Evaluations
+
+- Measures agent quality and performance
+- Evaluates correctness, reliability, and task success
+- Helps improve agents using data-driven insights
